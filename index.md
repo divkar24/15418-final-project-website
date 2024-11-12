@@ -16,7 +16,6 @@ We are going to be experimenting with different ways to parallelize the beam sea
 Beam search is a widely used algorithm in natural language processing (NLP) and other search-based applications that can be used to find the optimal sequence of states. By maintaining a fixed number of partial solutions (or beams) while exploring possible states, the algorithm achieves a balance between exhaustive search and computational efficiency, making it especially suitable for real-time applications and constrained resources. In this project, we focus on parallelizing the beam search algorithm to explore the performance benefits of different parallel computing approaches.
 
 ![10417/617 Recitation 3a Slides, Fall 2024](beam_search.jpeg)
-<img alt="10417/617 Recitation 3a Slides, Fall 2024" src="beam_search.jpeg" />
 (10417/617 Recitation 3a Slides, Fall 2024)
 
 Through this project, we aim to deepen our understanding of the trade-offs in parallelizing a tree-based search algorithm like beam search on different architectures. We hope to identify the optimal balance between synchronization, memory management, and workload distribution for each parallelization strategy, gaining insights into the challenges of mapping a workload with high communication demands and divergent execution to both GPU and CPU systems.
