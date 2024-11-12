@@ -15,6 +15,10 @@ We are going to be experimenting with different ways to parallelize the beam sea
 
 Beam search is a widely used algorithm in natural language processing (NLP) and other search-based applications that can be used to find the optimal sequence of states. By maintaining a fixed number of partial solutions (or beams) while exploring possible states, the algorithm achieves a balance between exhaustive search and computational efficiency, making it especially suitable for real-time applications and constrained resources. In this project, we focus on parallelizing the beam search algorithm to explore the performance benefits of different parallel computing approaches.
 
+![10417/617 Recitation 3a Slides, Fall 2024](beam_search.jpeg)
+<img alt="10417/617 Recitation 3a Slides, Fall 2024" src="beam_search.jpeg" />
+(10417/617 Recitation 3a Slides, Fall 2024)
+
 Through this project, we aim to deepen our understanding of the trade-offs in parallelizing a tree-based search algorithm like beam search on different architectures. We hope to identify the optimal balance between synchronization, memory management, and workload distribution for each parallelization strategy, gaining insights into the challenges of mapping a workload with high communication demands and divergent execution to both GPU and CPU systems.
 
 
@@ -63,7 +67,7 @@ Hope to Achieve
 |:------|:------------------------------------|:------------------------------------------|
 | 6     | Further optimizations + parallelisation methods       | We hope to implement 2-3 different optimizations (such as level-of-detail techniques or roving capsule meshes) but may run out of time  |
 
-We plan to show a visualised demo of our parallelised beam search, as well as an example application of beam search for NLP to illustrate the spedups that we have achieved during the final presentation along with speedup graphs illustrating the performance benefits we saw.
+We plan to show a visualised demo of our parallelised beam search, as well as an example application of beam search for NLP to illustrate the speedups that we have achieved during the final presentation, along with speedup graphs illustrating the performance benefits we saw.
 
 # Platform Choice
 
@@ -73,4 +77,24 @@ We also chose to use CUDA and MPI to parallelize this workload since they are tw
 
 # Schedule
 
-Fill in here
+| Week  | Item                         |
+|:------------|:------------------------------------|
+| November 13 - November 17     | * Set up a starter code environment
+* Test initial code and write timing code
+* Create a wider set of inputs; essentially, create a larger search tree
+* Perform baseline performance analysis (Goal 1)
+      | 
+| November 18 - November 24     | * Perform literature review and note any interesting optimization strategies (Goal 2)
+* Implement a CUDA parallelisation of beam search (Goal 3)
+                  | 
+| November 24 - November 30
+[THANKSGIVING]  | * Debug and test CUDA implementation + focus on further parallelisation strategies
+* Milestone deadline
+                 | 
+| December 1 - December 8     | * Implementing an MPI parallelisation of beam search (Goal 4)
+* Debug and test MPI implementation + focus on further parallelisation strategies
+                 | 
+| December 9 - December 15     | * Conduct comprehensive testing and performance evaluations (Goal 5)
+* Final Paper
+* Final Presentation
+   |
