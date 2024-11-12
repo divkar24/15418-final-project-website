@@ -72,3 +72,5 @@ We have chosen C++ as our programming language for this project because it provi
 We also chose to use CUDA and MPI to parallelize this workload since they are two completely different methods and will allow us to see which form of parallelization performs better on this type of workload. Our goal through the project is essentially to see why it makes sense to use one of these parallel systems over the other.
 
 # Schedule
+
+Fill in here
