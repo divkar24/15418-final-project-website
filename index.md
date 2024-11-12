@@ -78,10 +78,8 @@ We also chose to use CUDA and MPI to parallelize this workload since they are tw
 
 | Week         | Item                                                 |
 |:------------|:------------------------------------------------------|
-| November 13 - November 17     | 
-<ul><li>Set up a starter code environment</li><li>Test initial code and write timing code</li><li>Create a wider set of inputs; essentially, create a larger search tree</li><li>Perform baseline performance analysis (Goal 1)</li></ul> | 
-| November 18 - November 24     | <ul><li>Perform literature review and note any interesting optimization strategies (Goal 2)</li><li>Implement a CUDA parallelisation of beam search (Goal 3)</li></ul> | 
-| November 24 - November 30
-[THANKSGIVING]  | <ul><li>Debug and test CUDA implementation + focus on further parallelisation strategies</li><li>Milestone deadline</li></ul>  | 
-| December 1 - December 8     | <ul><li>Implementing an MPI parallelisation of beam search (Goal 4)</li><li>Debug and test MPI implementation + focus on further parallelisation strategies</li></ul> | 
-| December 9 - December 15     | <ul><li> Conduct comprehensive testing and performance evaluations (Goal 5)</li><li>Final Paper</li><li>Final Presentation</li></ul>|
+| November 13 - November 17     | Set up a starter code environmen; Test initial code and write timing code; Create a wider set of inputs; essentially, create a larger search tree; Perform baseline performance analysis (Goal 1) | 
+| November 18 - November 24     | Perform literature review and note any interesting optimization strategies (Goal 2); Implement a CUDA parallelisation of beam search (Goal 3) | 
+| November 24 - November 30 [THANKSGIVING]  | Debug and test CUDA implementation + focus on further parallelisation strategies; Milestone deadline  | 
+| December 1 - December 8     | Implementing an MPI parallelisation of beam search (Goal 4); Debug and test MPI implementation + focus on further parallelisation strategies | 
+| December 9 - December 15     | Conduct comprehensive testing and performance evaluations (Goal 5); Final Paper; Final Presentation |
