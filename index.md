@@ -2,13 +2,9 @@
 layout: default
 ---
 
-Text can be **bold**, _italic_, or ~~strikethrough~~.
-
-[Link to another page](./another-page.html).
-
-There should be whitespace between paragraphs.
-
-There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
+[Implementation Repository](./another-page.html).
+[Midpoint Report](./another-page.html).
+[Final Paper](./another-page.html).
 
 # Summary
 
@@ -67,8 +63,12 @@ Hope to Achieve
 |:------|:------------------------------------|:------------------------------------------|
 | 6     | Further optimizations + parallelisation methods       | We hope to implement 2-3 different optimizations (such as level-of-detail techniques or roving capsule meshes) but may run out of time  |
 
-* * *
+We plan to show a visualised demo of our parallelised beam search, as well as an example application of beam search for NLP to illustrate the spedups that we have achieved during the final presentation along with speedup graphs illustrating the performance benefits we saw.
 
-```
-The final element.
-```
+# Platform Choice
+
+We have chosen C++ as our programming language for this project because it provides both the necessary expressivity to implement beam search as well as providing support for both CUDA and MPI forms of parallel programming. Furthermore, C++ is significantly more efficient than Python and, thus, more suited for these types of performance-dependent programming applications.
+
+We also chose to use CUDA and MPI to parallelize this workload since they are two completely different methods and will allow us to see which form of parallelization performs better on this type of workload. Our goal through the project is essentially to see why it makes sense to use one of these parallel systems over the other.
+
+# Schedule
